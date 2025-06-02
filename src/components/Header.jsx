@@ -2,7 +2,7 @@ import React, {useState} from "react";
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 return (
-    <header className="bg-gray-800 text-white p-4 shadow-lg"> 
+    <header className=" bg-gradient-to-b from-gray-900 via-zinc-600 to-zinc-300 text-white p-6 shadow-lg"> 
 <div className="container mx-auto flex justify-between items-center">
 <a href="/" className="text-2xl font-bold text-teal-300 transition-colors duration-300">
 ETER

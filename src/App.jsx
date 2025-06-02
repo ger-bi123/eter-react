@@ -1,16 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import './components/Header';
+
 import Header from './components/Header';
+import Banner from './components/Banner';
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
     <div className="min-h-screen bg-gray-50 flex flex-col">
+     
+    <Banner message="Aprovechando el black friday lleva los pantalones con un descuento del 15%" />
+     
      <Header />
       </div>
     </>
